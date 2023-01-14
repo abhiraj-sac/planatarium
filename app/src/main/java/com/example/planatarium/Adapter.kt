@@ -64,6 +64,12 @@ class Adapter(var planet:List<PlanetData>): RecyclerView.Adapter<Adapter.myviewh
             "moon"->{
                 dummyimage = R.drawable.moon
             }
+<<<<<<< HEAD
+=======
+            "saturn"->{
+                dummyimage = R.drawable.saturn
+            }
+>>>>>>> b19be18 (Initial commit)
 
         }
         holder.planetimg.setImageResource(dummyimage!!)
